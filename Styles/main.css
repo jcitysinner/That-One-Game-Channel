@@ -1,0 +1,205 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800);
+@font-face {
+  font-family: Bebas;
+  src: url(../Fonts/BebasNeue-webfont.woff);
+}
+* {
+  -webkit-box-sizing: border-box;
+  /* Safari/Chrome, other WebKit */
+
+  -moz-box-sizing: border-box;
+  /* Firefox, other Gecko */
+
+  box-sizing: border-box;
+  /* Opera/IE 8+ */
+
+  font-family: 'Open Sans', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 300;
+  color: white;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+h1,
+h2,
+h3 {
+  font-family: Bebas;
+  margin: 0;
+}
+h2 {
+  font-size: 32px;
+}
+h3 {
+  font-size: 24px;
+}
+.container {
+  width: 100%;
+  max-width: 1170px;
+  margin: auto;
+  overflow: hidden;
+  padding: 25px 0;
+}
+div#header {
+  background-color: #333;
+}
+div#header header {
+  overflow: hidden;
+}
+div#header header img.logo {
+  width: 125px;
+  display: inline-block;
+  position: relative;
+}
+div#header header div.headerText {
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 50px;
+}
+div#header header h1 {
+  display: inline-block;
+  vertical-align: top;
+  margin: auto;
+  font-size: 66px;
+  text-align: center;
+}
+div#header header ul {
+  padding: 0;
+  margin: 22px 0 0;
+  vertical-align: bottom;
+}
+div#header header ul li {
+  display: inline-block;
+}
+#header > div > header > div > ul > li:nth-child(1) > a:hover {
+  color: #3498DB;
+}
+#header > div > header > div > ul > li:nth-child(2) > a:hover {
+  color: #F1C40F;
+}
+#header > div > header > div > ul > li:nth-child(3) > a:hover {
+  color: #2ECC71;
+}
+#header > div > header > div > ul > li:nth-child(4) > a:hover {
+  color: #E74C3C;
+}
+div#header header ul li a {
+  text-decoration: none;
+  margin-right: 10px;
+  transition: all 0.3s;
+}
+div#about {
+  background-color: #3498DB;
+}
+div#about div.aboutChannel {
+  width: 49%;
+  float: left;
+}
+div#about div.aboutChannel div.twitterButton {
+  width: 100%;
+  text-align: center;
+  padding-top: 15px;
+}
+div#about div.aboutChannel div.twitterButton div.fb-like {
+  vertical-align: top;
+  padding-top: 3px;
+  margin-left: 30px;
+}
+div#about div.aboutTeam {
+  width: 49%;
+  float: right;
+}
+div#about div.aboutTeam ul {
+  padding: 0;
+}
+div#about div.aboutTeam ul li {
+  display: inline-block;
+  width: 22%;
+  margin-right: 1%;
+}
+div#about div.aboutTeam ul li p {
+  text-align: left;
+  margin: 0 0 10px 0;
+  font-size: 14px;
+}
+div#about div.aboutTeam ul li img {
+  width: 100%;
+  border: solid 1px white;
+}
+div#about div.aboutTeam ul li a {
+  text-decoration: none;
+  padding-bottom: 5px;
+  transition: all 0.2s;
+}
+div#about div.aboutTeam ul li a:hover {
+  border-bottom: 5px solid white;
+}
+div#featured {
+  background-color: #F1C40F;
+}
+div#featured div.playerWrapper {
+  text-align: center;
+  width: 100%;
+  max-width: 853px;
+  margin: auto;
+}
+div#featured iframe {
+  border: solid 10px #333;
+}
+div#playlist {
+  background-color: #2ECC71;
+}
+div#playlist div.playlistContainer {
+  text-align: center;
+  width: 100%;
+  max-width: 853px;
+  margin: auto;
+}
+div#playlist div.playlistContainer img {
+  width: 35%;
+}
+div#playlist div.playlistContainer iframe {
+  border: solid 10px #333;
+  margin-top: 25px;
+}
+div#playlist div.playlistContainer a {
+  float: left;
+  text-decoration: none;
+  padding: 10px;
+  border: solid 1px white;
+  border-radius: 5px;
+  display: block;
+  width: 25%;
+  transition: all 0.2s;
+}
+div#playlist div.playlistContainer a:hover {
+  background-color: white;
+  color: #2ECC71;
+}
+div#playlist div.playlistContainer a:nth-child(4) {
+  float: right;
+}
+div#social {
+  background-color: #E74C3C;
+}
+div#social iframe {
+  width: 100% !important;
+  margin-top: 25px !important;
+}
+div#legal {
+  background-color: #333;
+}
+div#legal p.legalStuff {
+  text-align: center;
+}
+div#legal p.moreLegalStuff {
+  text-align: center;
+  font-size: 12px;
+  color: #888;
+}
+div#legal p.moreLegalStuff a {
+  color: #888;
+}
+#u_0_5 > div > div._5jjm {
+  z-index: 100 !important;
+}
